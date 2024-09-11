@@ -45,7 +45,7 @@ bash /root/cat20-oooooyoung.sh
 bash /root/cat20-oooooyoung.sh
 ```
 
-3. Monitor the logs. The node needs to be synced to at least 90% of the current block height. You can verify this by comparing it with the latest block height on [Fractal Explorer](https://explorer.unisat.io/fractal-mainnet/block).
+3. Monitor the logs. The node needs to be synced to at least 99% of the current block height. You can verify this by comparing it with the latest block height on [Fractal Explorer](https://explorer.unisat.io/fractal-mainnet/block).
 
 ```
 LOG [TxService] [OK] mint tx 8541a32b4a5910246c675df88160a72f69361a8d07807544fe4ff97eb0103c85
