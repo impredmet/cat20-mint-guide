@@ -45,7 +45,7 @@ bash /root/cat20-oooooyoung.sh
 bash /root/cat20-oooooyoung.sh
 ```
 
-3. Monitor the logs. The node needs to sync with the latest block. Once you start seeing multiple mint transactions like these, it means the node is sufficiently synced and ready for you to mint CAT20 tokens.
+3. Monitor the logs. The node needs to be synced to at least 90% of the current block height. You can verify this by comparing it with the latest block height on [Fractal Explorer](https://explorer.unisat.io/fractal-mainnet/block).
 
 ```
 LOG [TxService] [OK] mint tx 8541a32b4a5910246c675df88160a72f69361a8d07807544fe4ff97eb0103c85
@@ -63,6 +63,6 @@ LOG [TxService] [OK] mint tx 203df0fafb268f85569d68267ea7bc70d3bc4871967be84b766
 ### Step 5: Mint `cat` Tokens
 
 1. Once you have enough $FB in your wallet, rerun the script and select **option 3** to start minting `cat` tokens.
-2. The script will handle the minting process. You can keep an eye on the logs to track the mint transactions.
+2. The script will ask you to 请输入想要mint的gas (enter the gas fee for minting). Start by trying a gas fee of 300. If that doesn’t work, increase the gas fee incrementally.
 
 That's it! You've successfully minted `cat` tokens on Fractal Network.
