@@ -47,13 +47,6 @@ bash /root/cat20-oooooyoung.sh
 
 3. Monitor the logs. The node needs to be synced to at least 99% of the current block height. You can verify this by comparing it with the latest block height on [Fractal Explorer](https://explorer.unisat.io/fractal-mainnet/block).
 
-```
-LOG [TxService] [OK] mint tx 8541a32b4a5910246c675df88160a72f69361a8d07807544fe4ff97eb0103c85
-LOG [TxService] [OK] mint tx d56353772dfaaaed222a62e22c679e58d53a41cff0fc2fa091bd108d89d5f651
-LOG [TxService] [OK] mint tx 203df0fafb268f85569d68267ea7bc70d3bc4871967be84b766d53932038d06b
-...
-```
-
 ### Step 4: Create a Wallet
 
 1. After the node is synced, rerun the script and select **option 2** to create a wallet.
